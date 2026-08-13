@@ -1,0 +1,18 @@
+# Configuration Streamlit
+# Fichier optionnel pour personnaliser l'apparence et le comportement
+
+[theme]
+# Couleurs principales
+primaryColor = "#667eea"
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#e8eef9"
+textColor = "#1a365d"
+
+[server]
+# Paramètres serveur
+maxUploadSize = 200
+enableXsrfProtection = true
+headless = true
+
+[logger]
+level = "info"
